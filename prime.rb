@@ -4,7 +4,6 @@
 def prime?(integer)
 
   primeFlag = true
-  # max = integer - 1
 
   if integer <= 0 || integer == 1
       return false
@@ -12,7 +11,8 @@ def prime?(integer)
       (2..(integer-1)).each do |denom|
         primeFlag = false if integer % denom == 0
       end
-      return primeFlag
   end
+
+  return primeFlag
 
 end

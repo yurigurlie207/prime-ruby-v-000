@@ -4,7 +4,7 @@
 def prime?(integer)
 
   primeFlag = true
-  max = integer - 1
+  # max = integer - 1
 
   if integer <= 0 || integer == 1
       return false

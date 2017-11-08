@@ -12,7 +12,8 @@ def prime?(integer)
         primeFlag = false if integer % denom == 0
       end
 
+        return primeFlag
   end
 
-  return primeFlat
+
 end

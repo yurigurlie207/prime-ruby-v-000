@@ -3,8 +3,6 @@
 #an integer greater than one, if its only positive divsors are one and itself
 def prime?(integer)
 
-  primeFlag = true
-
   if integer <= 0 || integer == 1
       return false
   else
@@ -13,5 +11,4 @@ def prime?(integer)
       end
   end
 
-  return primeFlag
 end

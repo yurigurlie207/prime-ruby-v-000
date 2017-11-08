@@ -6,9 +6,6 @@ def prime?(integer)
   primeFlag = true
   max = integer - 1
 
-#   if [2,3].include?(integer) then
-      # return primeFlag
-
   if integer <= 0 || integer == 1
       return false
   else

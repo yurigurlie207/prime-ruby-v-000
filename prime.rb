@@ -2,7 +2,9 @@
 #definition of prime number:
 #an integer greater than one, if its only positive divsors are one and itself
 def prime?(integer)
+  
   primeFlag = true
+  
   if [2,3].include?(integer)
       return true
   elsif integer <= 0 || integer == 1

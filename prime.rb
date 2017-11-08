@@ -9,9 +9,7 @@ def prime?(integer)
       return false
   else
       (2..(integer-1)).each do |denom|
-        if integer % denom == 0 then {
-          return false
-        }
+        break if integer % denom == 0 
       end
   end
 end

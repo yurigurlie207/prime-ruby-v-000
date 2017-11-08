@@ -14,5 +14,4 @@ def prime?(integer)
   end
 
   return primeFlag
-
 end

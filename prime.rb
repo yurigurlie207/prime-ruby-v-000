@@ -10,5 +10,4 @@ def prime?(integer)
         return false if integer % denom == 0
       end
   end
-
 end

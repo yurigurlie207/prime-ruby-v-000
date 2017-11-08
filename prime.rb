@@ -9,10 +9,10 @@ def prime?(integer)
       return false
   else
       (2..(integer-1)).each do |denom|
-        primeFlag = false if integer % denom == 0 
+        primeFlag = false if integer % denom == 0
       end
-      
+
   end
 
-  return true
+  return primeFlat
 end
